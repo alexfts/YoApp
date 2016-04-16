@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDE51611CC2B9C300CB2D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */; };
+		1EDE51631CC2B9C300CB2D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE51621CC2B9C300CB2D94 /* ViewController.swift */; };
+		1EDE51661CC2B9C300CB2D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51641CC2B9C300CB2D94 /* Main.storyboard */; };
+		1EDE51681CC2B9C300CB2D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */; };
+		1EDE516B1CC2B9C400CB2D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EDE515D1CC2B9C300CB2D94 /* YoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EDE51621CC2B9C300CB2D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EDE51651CC2B9C300CB2D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EDE516A1CC2B9C400CB2D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EDE516C1CC2B9C400CB2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDE515A1CC2B9C300CB2D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDE51541CC2B9C300CB2D94 = {
+			isa = PBXGroup;
+			children = (
+				1EDE515F1CC2B9C300CB2D94 /* YoApp */,
+				1EDE515E1CC2B9C300CB2D94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EDE515E1CC2B9C300CB2D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE515D1CC2B9C300CB2D94 /* YoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EDE515F1CC2B9C300CB2D94 /* YoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */,
+				1EDE51621CC2B9C300CB2D94 /* ViewController.swift */,
+				1EDE51641CC2B9C300CB2D94 /* Main.storyboard */,
+				1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */,
+				1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */,
+				1EDE516C1CC2B9C400CB2D94 /* Info.plist */,
+			);
+			path = YoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EDE515C1CC2B9C300CB2D94 /* YoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDE516F1CC2B9C400CB2D94 /* Build configuration list for PBXNativeTarget "YoApp" */;
+			buildPhases = (
+				1EDE51591CC2B9C300CB2D94 /* Sources */,
+				1EDE515A1CC2B9C300CB2D94 /* Frameworks */,
+				1EDE515B1CC2B9C300CB2D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoApp;
+			productName = YoApp;
+			productReference = 1EDE515D1CC2B9C300CB2D94 /* YoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EDE51551CC2B9C300CB2D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexandra Fetisova";
+				TargetAttributes = {
+					1EDE515C1CC2B9C300CB2D94 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 328A5KHR47;
+					};
+				};
+			};
+			buildConfigurationList = 1EDE51581CC2B9C300CB2D94 /* Build configuration list for PBXProject "YoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EDE51541CC2B9C300CB2D94;
+			productRefGroup = 1EDE515E1CC2B9C300CB2D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EDE515C1CC2B9C300CB2D94 /* YoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EDE515B1CC2B9C300CB2D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE516B1CC2B9C400CB2D94 /* LaunchScreen.storyboard in Resources */,
+				1EDE51681CC2B9C300CB2D94 /* Assets.xcassets in Resources */,
+				1EDE51661CC2B9C300CB2D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EDE51591CC2B9C300CB2D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDE51631CC2B9C300CB2D94 /* ViewController.swift in Sources */,
+				1EDE51611CC2B9C300CB2D94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EDE51641CC2B9C300CB2D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDE51651CC2B9C300CB2D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDE516A1CC2B9C400CB2D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EDE516D1CC2B9C400CB2D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EDE516E1CC2B9C400CB2D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EDE51701CC2B9C400CB2D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexandra.fetisova.YoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EDE51711CC2B9C400CB2D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexandra.fetisova.YoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDE51581CC2B9C300CB2D94 /* Build configuration list for PBXProject "YoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE516D1CC2B9C400CB2D94 /* Debug */,
+				1EDE516E1CC2B9C400CB2D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDE516F1CC2B9C400CB2D94 /* Build configuration list for PBXNativeTarget "YoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDE51701CC2B9C400CB2D94 /* Debug */,
+				1EDE51711CC2B9C400CB2D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EDE51551CC2B9C300CB2D94 /* Project object */;
+}
