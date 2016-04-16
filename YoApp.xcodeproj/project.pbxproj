@@ -12,6 +12,7 @@
 		1EDE51661CC2B9C300CB2D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51641CC2B9C300CB2D94 /* Main.storyboard */; };
 		1EDE51681CC2B9C300CB2D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */; };
 		1EDE516B1CC2B9C400CB2D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */; };
+		1EDE51751CC2C67800CB2D94 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE51741CC2C67800CB2D94 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EDE516A1CC2B9C400CB2D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EDE516C1CC2B9C400CB2D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDE51741CC2C67800CB2D94 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			files = (
 				1EDE51631CC2B9C300CB2D94 /* ViewController.swift in Sources */,
 				1EDE51611CC2B9C300CB2D94 /* AppDelegate.swift in Sources */,
+				1EDE51751CC2C67800CB2D94 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
