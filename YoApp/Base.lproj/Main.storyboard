@@ -36,24 +36,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6n-dr-MJ5">
-                                <rect key="frame" x="131" y="350" width="112" height="30"/>
-                                <state key="normal" title="Send &quot;Yo&quot;"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-Cs-xIE">
+                                <rect key="frame" x="80" y="447" width="213" height="30"/>
+                                <state key="normal" title="Send &quot;Let's have a pizza&quot;"/>
                                 <connections>
-                                    <action selector="sendYo:" destination="mbc-6Z-CEF" eventType="touchUpInside" id="Hiv-ZQ-66u"/>
+                                    <action selector="sendPizza:" destination="mbc-6Z-CEF" eventType="touchUpInside" id="WSl-x9-qFI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-Cs-xIE">
-                                <rect key="frame" x="80" y="388" width="213" height="30"/>
-                                <state key="normal" title="Send &quot;Let's have a pizza&quot;"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E36-Qo-1ca">
-                                <rect key="frame" x="84" y="425" width="205" height="30"/>
+                                <rect key="frame" x="85" y="515" width="205" height="30"/>
                                 <state key="normal" title="Send &quot;How's your day?&quot;"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMm-1u-fPb">
-                                <rect key="frame" x="88" y="458" width="198" height="30"/>
-                                <state key="normal" title="I'm feeling lucky!"/>
+                                <connections>
+                                    <action selector="sendDay:" destination="mbc-6Z-CEF" eventType="touchUpInside" id="6QM-0k-MgH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dft-GV-ncd">
                                 <rect key="frame" x="80" y="52" width="206" height="21"/>
@@ -70,6 +65,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6n-dr-MJ5">
+                                <rect key="frame" x="130" y="383" width="112" height="30"/>
+                                <state key="normal" title="Send &quot;Yo&quot;"/>
+                                <connections>
+                                    <action selector="sendYo:" destination="mbc-6Z-CEF" eventType="touchUpInside" id="Hiv-ZQ-66u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

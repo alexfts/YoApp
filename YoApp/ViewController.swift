@@ -39,9 +39,24 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
         messageVC.recipients = [phoneNumber]
         messageVC.messageComposeDelegate = self
         self.presentViewController(messageVC, animated: false, completion: nil)
-        
-        
     }
+    
+    @IBAction func sendPizza(sender: UIButton) {
+        let messageVC = MFMessageComposeViewController()
+        messageVC.body = "Let's have a pizza!"
+        messageVC.recipients = [phoneNumber]
+        messageVC.messageComposeDelegate = self
+        self.presentViewController(messageVC, animated: false, completion: nil)
+    }
+    
+    @IBAction func sendDay(sender: UIButton) {
+        let messageVC = MFMessageComposeViewController()
+        messageVC.body = "How's your day?"
+        messageVC.recipients = [phoneNumber]
+        messageVC.messageComposeDelegate = self
+        self.presentViewController(messageVC, animated: false, completion: nil)
+    }
+    
     
     func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
         // yo
