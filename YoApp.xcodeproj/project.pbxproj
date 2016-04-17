@@ -58,9 +58,10 @@
 			children = (
 				1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */,
 				1EDE51621CC2B9C300CB2D94 /* ViewController.swift */,
-				1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */,
+				1EDE51741CC2C67800CB2D94 /* ContactsViewController.swift */,
 				1EDE51641CC2B9C300CB2D94 /* Main.storyboard */,
 				1EDE51671CC2B9C300CB2D94 /* Assets.xcassets */,
+				1EDE51691CC2B9C400CB2D94 /* LaunchScreen.storyboard */,
 				1EDE516C1CC2B9C400CB2D94 /* Info.plist */,
 			);
 			path = YoApp;
