@@ -8,12 +8,17 @@
 
 import UIKit
 import Contacts
+import MessageUI
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MFMessageComposeViewControllerDelegate {
 
     var name = " "
     var familyName = " "
     var phoneNumber = " "
+    
+    @IBOutlet weak var showFullName: UILabel!
+    @IBOutlet weak var showCellPhoneNumber: UILabel!
+    
     
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
@@ -25,6 +30,21 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    @IBAction func sendYo(sender: UIButton) {
+        let messageVC = MFMessageComposeViewController()
+        messageVC.body = "YO"
+        messageVC.recipients = [phoneNumber]
+        messageVC.messageComposeDelegate = self
+        self.presentViewController(messageVC, animated: false, completion: nil)
+        
+        
+    }
+    
+    func messageComposeViewController(controller: MFMessageComposeViewController, didFinishWithResult result: MessageComposeResult) {
+        // yo
     }
     
     func updateWithContact(notification: NSNotification?) {
@@ -46,7 +66,9 @@ class ViewController: UIViewController {
                 phoneNumber = temp.stringValue
             }
         }
-        
+
+        showFullName.text = name + " " + familyName
+        showCellPhoneNumber.text = phoneNumber
        // print(familyName, name, phoneNumber)
         
     }

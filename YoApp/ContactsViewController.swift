@@ -39,11 +39,15 @@ class ContactsViewController: UIViewController, CNContactPickerDelegate {
     func contactPicker(picker: CNContactPickerViewController, didSelectContact contact: CNContact) {
         
         NSNotificationCenter.defaultCenter().postNotificationName("displayContact", object: nil, userInfo: ["contact": contact])
+        // take us to the ViewController
     }
     
     @IBAction func click(sender: UIButton) {
         addExistingContact()
+        self.performSegueWithIdentifier("show_detail", sender: nil)
     }
+    
+    
 
 
 }
