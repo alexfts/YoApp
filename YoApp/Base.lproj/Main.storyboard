@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sFz-5c-phL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ULJ-NB-WMC">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -49,19 +49,21 @@
                                 <rect key="frame" x="201" y="456" width="198" height="30"/>
                                 <state key="normal" title="I'm feeling lucky!"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="(Cell # Here)" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q5B-AV-ntX">
-                                <rect key="frame" x="251" y="75" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dft-GV-ncd">
+                                <rect key="frame" x="265" y="52" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RkV-1c-6M1">
                                 <rect key="frame" x="193" y="139" width="214" height="168"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="(Name Here)" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kls-vy-ELZ">
-                                <rect key="frame" x="194" y="37" width="211" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cell phone #" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F78-iT-hF2">
+                                <rect key="frame" x="255" y="89" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -71,66 +73,34 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DPF-Se-lRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="2738"/>
+            <point key="canvasLocation" x="140" y="329"/>
         </scene>
-        <!--Split View Controller-->
-        <scene sceneID="zKI-f0-dfb">
+        <!--Contacts View Controller-->
+        <scene sceneID="aCf-mf-nmb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xss-tF-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <splitViewController id="sFz-5c-phL" sceneMemberID="viewController">
-                    <connections>
-                        <segue destination="mbc-6Z-CEF" kind="relationship" relationship="detailViewController" id="92K-IA-cYS"/>
-                        <segue destination="mgh-Du-rZy" kind="relationship" relationship="masterViewController" id="e3l-MR-pyZ"/>
-                    </connections>
-                </splitViewController>
-            </objects>
-            <point key="canvasLocation" x="368" y="2345"/>
-        </scene>
-        <!--Select Contact View Controller-->
-        <scene sceneID="VZf-uK-joP">
-            <objects>
-                <viewController id="nXC-j5-0sq" customClass="SelectContactViewController" customModule="YoApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ULJ-NB-WMC" customClass="ContactsViewController" customModule="YoApp" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xVh-gc-Zn1"/>
-                        <viewControllerLayoutGuide type="bottom" id="OPe-aE-dt1"/>
+                        <viewControllerLayoutGuide type="top" id="thv-YH-O5y"/>
+                        <viewControllerLayoutGuide type="bottom" id="lFp-oW-4z7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="LWL-oq-lY5">
+                    <view key="view" contentMode="scaleToFill" id="X2o-Tg-kkV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-dY-39l">
-                                <rect key="frame" x="277" y="272" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK3-uR-zyR">
+                                <rect key="frame" x="287" y="128" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="openContacts:" destination="nXC-j5-0sq" eventType="touchUpInside" id="DMb-il-ebh"/>
+                                    <action selector="click:" destination="ULJ-NB-WMC" eventType="touchUpInside" id="aMY-Ys-pwR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8QD-jB-VqM"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yty-YZ-Oh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oTf-bl-xDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1928" y="2018"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="SHZ-uv-C2H">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mgh-Du-rZy" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="epH-oU-Tiu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="nXC-j5-0sq" kind="relationship" relationship="rootViewController" id="Sld-lz-73U"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KVB-6C-QHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1116" y="2018"/>
+            <point key="canvasLocation" x="1016" y="301"/>
         </scene>
     </scenes>
 </document>
