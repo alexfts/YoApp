@@ -37,11 +37,8 @@ class ContactsViewController: UIViewController, CNContactPickerDelegate {
     }
     
     func contactPicker(picker: CNContactPickerViewController, didSelectContact contact: CNContact) {
-        print("I'm here")
-        print(contact.givenName)
-        print(contact.familyName)
-        print(contact.phoneNumbers[0].value)
-        //NSNotificationCenter.defaultCenter().postNotificationName("addNewContact", object: nil, userInfo: ["contactToAdd": contact])
+        
+        NSNotificationCenter.defaultCenter().postNotificationName("displayContact", object: nil, userInfo: ["contact": contact])
     }
     
     @IBAction func click(sender: UIButton) {
