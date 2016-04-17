@@ -30,8 +30,9 @@ class SelectContactViewController: UIViewController, CNContactPickerDelegate {
     }
     
     func contactPicker(picker: CNContactPickerViewController, didSelectContact contact: CNContact) {
+        
         // send contact to the new window
-        //NSNotificationCenter.defaultCenter().postNotificationName("addNewContact", object: nil, userInfo: ["contactToAdd": contact])
+        NSNotificationCenter.defaultCenter().postNotificationName("displayContact", object: nil, userInfo: ["contact": contact])
     }
 
     

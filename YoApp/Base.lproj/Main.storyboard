@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nXC-j5-0sq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sFz-5c-phL">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -71,7 +71,20 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DPF-Se-lRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="329"/>
+            <point key="canvasLocation" x="1188" y="2738"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="zKI-f0-dfb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xss-tF-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <splitViewController id="sFz-5c-phL" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="mbc-6Z-CEF" kind="relationship" relationship="detailViewController" id="92K-IA-cYS"/>
+                        <segue destination="mgh-Du-rZy" kind="relationship" relationship="masterViewController" id="e3l-MR-pyZ"/>
+                    </connections>
+                </splitViewController>
+            </objects>
+            <point key="canvasLocation" x="368" y="2345"/>
         </scene>
         <!--Select Contact View Controller-->
         <scene sceneID="VZf-uK-joP">
@@ -95,10 +108,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8QD-jB-VqM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yty-YZ-Oh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="814" y="329"/>
+            <point key="canvasLocation" x="1928" y="2018"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SHZ-uv-C2H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mgh-Du-rZy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="epH-oU-Tiu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nXC-j5-0sq" kind="relationship" relationship="rootViewController" id="Sld-lz-73U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVB-6C-QHw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="2018"/>
         </scene>
     </scenes>
 </document>
