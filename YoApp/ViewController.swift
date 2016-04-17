@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Contacts
 
 class ViewController: UIViewController {
 
@@ -28,7 +29,27 @@ class ViewController: UIViewController {
     }
     
     func updateWithContact(notification: NSNotification?) {
-        print(notification?.userInfo?["contact"]!)
+        name = " "
+        familyName = " "
+        phoneNumber = ""
+        var tempContact = CNContact()
+        
+        tempContact = (notification?.userInfo?["contact"]!)! as! CNContact
+        let phoneNumbers = tempContact.phoneNumbers
+        
+        name = tempContact.givenName
+        familyName = tempContact.familyName
+        
+        for number in phoneNumbers {
+            print(number.label)
+            if number.label == "_$!<Mobile>!$_" {
+                let temp = number.value as! CNPhoneNumber
+                phoneNumber = temp.stringValue
+            }
+        }
+        
+        print(familyName, name, phoneNumber)
+        
     }
 
 
