@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E0B304D1CC3398100957A75 /* Green Pattern Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B304C1CC3398100957A75 /* Green Pattern Background.png */; };
 		1E0B304F1CC33C1700957A75 /* 3846490658_4258d01f4d_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B304E1CC33C1700957A75 /* 3846490658_4258d01f4d_o.png */; };
+		1E0B30511CC33D8500957A75 /* pattern-371150_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B30501CC33D8500957A75 /* pattern-371150_960_720.png */; };
 		1EDE51611CC2B9C300CB2D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */; };
 		1EDE51631CC2B9C300CB2D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE51621CC2B9C300CB2D94 /* ViewController.swift */; };
 		1EDE51661CC2B9C300CB2D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDE51641CC2B9C300CB2D94 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		1E0B304C1CC3398100957A75 /* Green Pattern Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Pattern Background.png"; sourceTree = "<group>"; };
 		1E0B304E1CC33C1700957A75 /* 3846490658_4258d01f4d_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3846490658_4258d01f4d_o.png; sourceTree = "<group>"; };
+		1E0B30501CC33D8500957A75 /* pattern-371150_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern-371150_960_720.png"; sourceTree = "<group>"; };
 		1EDE515D1CC2B9C300CB2D94 /* YoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EDE51621CC2B9C300CB2D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				1EDE51601CC2B9C300CB2D94 /* AppDelegate.swift */,
 				1E0B304C1CC3398100957A75 /* Green Pattern Background.png */,
+				1E0B30501CC33D8500957A75 /* pattern-371150_960_720.png */,
 				1EDE51621CC2B9C300CB2D94 /* ViewController.swift */,
 				1EDE51741CC2C67800CB2D94 /* ContactsViewController.swift */,
 				1E0B304E1CC33C1700957A75 /* 3846490658_4258d01f4d_o.png */,
@@ -137,6 +140,7 @@
 				1E0B304D1CC3398100957A75 /* Green Pattern Background.png in Resources */,
 				1E0B304F1CC33C1700957A75 /* 3846490658_4258d01f4d_o.png in Resources */,
 				1EDE51661CC2B9C300CB2D94 /* Main.storyboard in Resources */,
+				1E0B30511CC33D8500957A75 /* pattern-371150_960_720.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

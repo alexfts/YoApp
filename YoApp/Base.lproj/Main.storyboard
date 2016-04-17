@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pd5-dJ-Xvm">
-                                <rect key="frame" x="0.0" y="-1" width="442" height="561"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pattern-371150_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="pd5-dJ-Xvm">
+                                <rect key="frame" x="0.0" y="-1" width="375" height="668"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbG-SW-hiF">
                                 <rect key="frame" x="166" y="-1" width="48" height="39"/>
@@ -37,22 +37,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6n-dr-MJ5">
-                                <rect key="frame" x="131" y="336" width="112" height="30"/>
+                                <rect key="frame" x="131" y="350" width="112" height="30"/>
                                 <state key="normal" title="Send &quot;Yo&quot;"/>
                                 <connections>
                                     <action selector="sendYo:" destination="mbc-6Z-CEF" eventType="touchUpInside" id="Hiv-ZQ-66u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-Cs-xIE">
-                                <rect key="frame" x="80" y="374" width="213" height="30"/>
+                                <rect key="frame" x="80" y="388" width="213" height="30"/>
                                 <state key="normal" title="Send &quot;Let's have a pizza&quot;"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E36-Qo-1ca">
-                                <rect key="frame" x="84" y="412" width="205" height="30"/>
+                                <rect key="frame" x="84" y="425" width="205" height="30"/>
                                 <state key="normal" title="Send &quot;How's your day?&quot;"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMm-1u-fPb">
-                                <rect key="frame" x="88" y="456" width="198" height="30"/>
+                                <rect key="frame" x="88" y="458" width="198" height="30"/>
                                 <state key="normal" title="I'm feeling lucky!"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dft-GV-ncd">
@@ -61,8 +61,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RkV-1c-6M1">
-                                <rect key="frame" x="80" y="139" width="214" height="168"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3846490658_4258d01f4d_o.png" translatesAutoresizingMaskIntoConstraints="NO" id="RkV-1c-6M1">
+                                <rect key="frame" x="80" y="139" width="214" height="203"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cell phone #" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F78-iT-hF2">
                                 <rect key="frame" x="80" y="89" width="214" height="21"/>
@@ -156,7 +156,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="3846490658_4258d01f4d_o.png" width="600" height="600"/>
         <image name="Green Pattern Background.png" width="720" height="720"/>
+        <image name="pattern-371150_960_720.png" width="960" height="650"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="4J3-qN-wHi"/>
